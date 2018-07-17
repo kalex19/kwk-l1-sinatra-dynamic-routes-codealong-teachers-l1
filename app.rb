@@ -27,4 +27,12 @@ get '/medicines/:id' do
   erb :'/medicines/show.html'
 end
 
+get '/goodbye/:name' 
+@goodbye = params[:name]
+erb: "Goodbye, (person's name)."
+end
+
+
+
+
 end
